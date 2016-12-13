@@ -33,7 +33,7 @@ public class Score : MonoBehaviour {
 
 	public GUIText textoScore;
 	private string score;
-	private bool comecou = false;
+	//private bool comecou = false;
 		
 	// Use this for initialization
 	void Start () {

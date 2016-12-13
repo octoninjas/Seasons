@@ -96,7 +96,7 @@ public class CriaObjetos : MonoBehaviour {
 		}
 
 	void criaRocha(){
-			var offsetRocha = Random.Range (-0.5f, 0.0f);
+			//var offsetRocha = Random.Range (-0.5f, 0.0f);
 
 			if (estacao == "inverno") {
 				GameObject novoObjeto = (GameObject)Instantiate (rocha3);
@@ -118,15 +118,15 @@ public class CriaObjetos : MonoBehaviour {
 		var sorteiaObjeto = Random.Range (1,5);
 		var offSetNuvem = Random.Range (2.5f,3.5f);
 		var giroRandom = Random.Range (-180f,180f);
-		var giroNuvem = 0.0f;
+		//var giroNuvem = 0.0f;
 		var posicaoX = 0.0f;
 
 		if ((Random.Range (1, 3) % 2) == 0) {
 			posicaoX = -1.6f;
-			giroNuvem = 0.0f;
+			//giroNuvem = 0.0f;
 		} else {
 			posicaoX = 1.9f;
-			giroNuvem = 180f;
+			//giroNuvem = 180f;
 		}
 
 		switch (sorteiaObjeto) {
