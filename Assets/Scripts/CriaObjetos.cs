@@ -36,6 +36,12 @@ public class CriaObjetos : MonoBehaviour {
 //		}
 	}
 
+	void OnGUI(){
+		if (GUI.Button (new Rect (10, 10, 30, 30), "X")) {
+			Application.LoadLevel ("MenuIntro");
+		}
+	}
+
 	void criaCerca(){
 
 			GameObject novoObjeto = (GameObject)Instantiate (cerca);

@@ -40,6 +40,8 @@ public class GirlController : MonoBehaviour {
 //				salta ();
 //			}
 		}
+
+		this.gameObject.transform.localScale += new Vector3 (0.00001f,0.00001f,0.00001f);
 	}
 
 	void salta(){
@@ -97,6 +99,7 @@ public class GirlController : MonoBehaviour {
 			//scriptB.fimDeJogo();
 			this.gameObject.GetComponent<Rigidbody> ().velocity = new Vector3 (0, 0, 0);
 			this.gameObject.GetComponent<Rigidbody> ().AddForce (new Vector3 (-250, 2500, -2500), ForceMode.Force);
+			Application.LoadLevel ("MenuOver");
 
 		}
 	}
