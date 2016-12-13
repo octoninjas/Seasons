@@ -17,42 +17,47 @@ public class MudaBackground : MonoBehaviour {
 	}
 
 	void Update() {
-		if (Time.time >= 24f &&  Time.time <= 29f) {
+		if (Time.timeSinceLevelLoad >= 24f &&  Time.timeSinceLevelLoad <= 29f) {
 			//float t = Mathf.PingPong (Time.time, duration) / duration;
 			camera.backgroundColor = Color.Lerp (color4, color1,  Mathf.PingPong(Time.time, 5));
-
 		}
-		if (Time.time >= 33f &&  Time.time <= 38f) {
+
+		if (Time.timeSinceLevelLoad >= 33f &&  Time.timeSinceLevelLoad <= 38f) {
 			//float t = Mathf.PingPong (Time.time, duration) / duration;
 			camera.backgroundColor = Color.Lerp (color1, color2,  Mathf.PingPong(Time.time, 5));
-
 		}
-		if (Time.time >= 61f &&  Time.time <= 66f) {
+
+		if (Time.timeSinceLevelLoad >= 61f &&  Time.timeSinceLevelLoad <= 66f) {
 			//float t = Mathf.PingPong (Time.time, duration) / duration;
 			camera.backgroundColor = Color.Lerp (color2, color3,  Mathf.PingPong(Time.time, 5));
 		}
-		if (Time.time >= 71f &&  Time.time <= 76f) {
+
+		if (Time.timeSinceLevelLoad >= 71f &&  Time.timeSinceLevelLoad <= 76f) {
 			//float t = Mathf.PingPong (Time.time, duration) / duration;
 			camera.backgroundColor = Color.Lerp (color3, color4,  Mathf.PingPong(Time.time, 5));
 		}
 
-		if (Time.time >= 106f &&  Time.time <= 111f) {
+		if (Time.timeSinceLevelLoad >= 106f &&  Time.timeSinceLevelLoad <= 111f) {
 			//float t = Mathf.PingPong (Time.time, duration) / duration;
 			camera.backgroundColor = Color.Lerp (color4, color1,  Mathf.PingPong(Time.time, 5));
 		}
-		if (Time.time >= 139f &&  Time.time <= 144f) {
+
+		if (Time.timeSinceLevelLoad >= 139f &&  Time.timeSinceLevelLoad <= 144f) {
 			//float t = Mathf.PingPong (Time.time, duration) / duration;
 			camera.backgroundColor = Color.Lerp (color1, color2,  Mathf.PingPong(Time.time, 5));
 		}
-		if (Time.time >= 172f &&  Time.time <= 177f) {
+
+		if (Time.timeSinceLevelLoad >= 172f &&  Time.timeSinceLevelLoad <= 177f) {
 			//float t = Mathf.PingPong (Time.time, duration) / duration;
 			camera.backgroundColor = Color.Lerp (color2, color3,  Mathf.PingPong(Time.time, 5));
 		}
-		if (Time.time >= 206f &&  Time.time <= 211f) {
+
+		if (Time.timeSinceLevelLoad >= 206f &&  Time.timeSinceLevelLoad <= 211f) {
 			//float t = Mathf.PingPong (Time.time, duration) / duration;
 			camera.backgroundColor = Color.Lerp (color3, color4,  Mathf.PingPong(Time.time, 5));
 		}
-		if (Time.time >= 248f &&  Time.time <= 253f) {
+
+		if (Time.timeSinceLevelLoad >= 248f &&  Time.timeSinceLevelLoad <= 253f) {
 			//float t = Mathf.PingPong (Time.time, duration) / duration;
 			camera.backgroundColor = Color.Lerp (color4, color1,  Mathf.PingPong(Time.time, 5));
 		}

@@ -43,88 +43,88 @@ public class Score : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (Time.time >= 0f && Time.time <= 7f) {
+		if (Time.timeSinceLevelLoad >= 0f && Time.timeSinceLevelLoad <= 7f) {
 			textoScore.text = dez;
 		}
-		if (Time.time >= 8f && Time.time <= 15f) {
+		if (Time.timeSinceLevelLoad >= 8f && Time.timeSinceLevelLoad <= 15f) {
 			textoScore.text = jan;
 		}
-		if (Time.time >= 16f && Time.time <= 22f) {
+		if (Time.timeSinceLevelLoad >= 16f && Time.timeSinceLevelLoad <= 22f) {
 			textoScore.text = fev;
 		}
-		if (Time.time >= 23f && Time.time <= 25f) {
+		if (Time.timeSinceLevelLoad >= 23f && Time.timeSinceLevelLoad <= 25f) {
 			textoScore.text = mar;
 		}
-		if (Time.time >= 26f && Time.time <= 28f) {
+		if (Time.timeSinceLevelLoad >= 26f && Time.timeSinceLevelLoad <= 28f) {
 			textoScore.text = abr;
 		}
-		if (Time.time >= 29f && Time.time <= 32f) {
+		if (Time.timeSinceLevelLoad >= 29f && Time.timeSinceLevelLoad <= 32f) {
 			textoScore.text = mai;
 		}
-		if (Time.time >= 33f && Time.time <= 43f) {
+		if (Time.timeSinceLevelLoad >= 33f && Time.timeSinceLevelLoad <= 43f) {
 			textoScore.text = jun;
 		}
-		if (Time.time >= 44f && Time.time <= 54f) {
+		if (Time.timeSinceLevelLoad >= 44f && Time.timeSinceLevelLoad <= 54f) {
 			textoScore.text = jul;
 		}
-		if (Time.time >= 55f && Time.time <= 60f) {
+		if (Time.timeSinceLevelLoad >= 55f && Time.timeSinceLevelLoad <= 60f) {
 			textoScore.text = ago;
 		}
-		if (Time.time >= 61f && Time.time <= 64f) {
+		if (Time.timeSinceLevelLoad >= 61f && Time.timeSinceLevelLoad <= 64f) {
 			textoScore.text = set;
 		}
-		if (Time.time >= 65f && Time.time <= 68f) {
+		if (Time.timeSinceLevelLoad >= 65f && Time.timeSinceLevelLoad <= 68f) {
 			textoScore.text = outu;
 		}
-		if (Time.time >= 69f && Time.time <= 72f) {
+		if (Time.timeSinceLevelLoad >= 69f && Time.timeSinceLevelLoad <= 72f) {
 			textoScore.text = nov;
 		}
-		if (Time.time >= 73f && Time.time <= 83f) {
+		if (Time.timeSinceLevelLoad >= 73f && Time.timeSinceLevelLoad <= 83f) {
 			textoScore.text = dez;
 		}
-		if (Time.time >= 84f && Time.time <= 94f) {
+		if (Time.timeSinceLevelLoad >= 84f && Time.timeSinceLevelLoad <= 94f) {
 			textoScore.text = jan;
 		}
-		if (Time.time >= 95f && Time.time <= 105f) {
+		if (Time.timeSinceLevelLoad >= 95f && Time.timeSinceLevelLoad <= 105f) {
 			textoScore.text = fev;
 		}
-		if (Time.time >= 106f && Time.time <= 116f) {
+		if (Time.timeSinceLevelLoad >= 106f && Time.timeSinceLevelLoad <= 116f) {
 			textoScore.text = mar;
 		}
-		if (Time.time >= 117f && Time.time <= 127f) {
+		if (Time.timeSinceLevelLoad >= 117f && Time.timeSinceLevelLoad <= 127f) {
 			textoScore.text = abr;
 		}
-		if (Time.time >= 128f && Time.time <= 138f) {
+		if (Time.timeSinceLevelLoad >= 128f && Time.timeSinceLevelLoad <= 138f) {
 			textoScore.text = mai;
 		}
-		if (Time.time >= 139f && Time.time <= 149f) {
+		if (Time.timeSinceLevelLoad >= 139f && Time.timeSinceLevelLoad <= 149f) {
 			textoScore.text = jun;
 		}
-		if (Time.time >= 150f && Time.time <= 160f) {
+		if (Time.timeSinceLevelLoad >= 150f && Time.timeSinceLevelLoad <= 160f) {
 			textoScore.text = jul;
 		}
-		if (Time.time >= 161f && Time.time <= 171f) {
+		if (Time.timeSinceLevelLoad >= 161f && Time.timeSinceLevelLoad <= 171f) {
 			textoScore.text = ago;
 		}
-		if (Time.time >= 172f && Time.time <= 182f) {
+		if (Time.timeSinceLevelLoad >= 172f && Time.timeSinceLevelLoad <= 182f) {
 			textoScore.text = set;
 		}
-		if (Time.time >= 183f && Time.time <= 193f) {
+		if (Time.timeSinceLevelLoad >= 183f && Time.timeSinceLevelLoad <= 193f) {
 			textoScore.text = outu;
 		}
-		if (Time.time >= 194f && Time.time <= 205f) {
+		if (Time.timeSinceLevelLoad >= 194f && Time.timeSinceLevelLoad <= 205f) {
 			textoScore.text = nov;
 		}
-		if (Time.time >= 206f && Time.time <= 216f) {
+		if (Time.timeSinceLevelLoad >= 206f && Time.timeSinceLevelLoad <= 216f) {
 			textoScore.text = dez;
 		}
-		if (Time.time >= 217f && Time.time <= 227f) {
+		if (Time.timeSinceLevelLoad >= 217f && Time.timeSinceLevelLoad <= 227f) {
 			textoScore.text = jan;
 		}
-		if (Time.time >= 228f && Time.time <= 238f) {
+		if (Time.timeSinceLevelLoad >= 228f && Time.timeSinceLevelLoad <= 238f) {
 			textoScore.text = fev;
 		}
-		if (Time.time >= 248f && Time.time <= 258f) {
+		if (Time.timeSinceLevelLoad >= 248f && Time.timeSinceLevelLoad <= 258f) {
 			textoScore.text = mar;
 		}
 	}
