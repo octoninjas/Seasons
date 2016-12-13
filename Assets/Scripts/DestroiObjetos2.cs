@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DestroiObjetos : MonoBehaviour {
+public class DestroiObjetos2 : MonoBehaviour {
 
 	private bool cresce = false;
 	private bool diminui = false;
@@ -9,7 +9,7 @@ public class DestroiObjetos : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		this.transform.localScale = new Vector3 (0.01f, 0.01f, 0.01f);
+		//this.transform.localScale = new Vector3 (0.01f, 0.01f, 0.01f);
 		cresce = true;
 	}
 	

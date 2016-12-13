@@ -47,12 +47,15 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CriaObjetos.cs" />
      <Compile Include="Assets\Scripts\DestroiObjetos.cs" />
+     <Compile Include="Assets\Scripts\DestroiObjetos2.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\GirlController.cs" />
      <Compile Include="Assets\Scripts\MudaBackground.cs" />
      <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\ScrollChao.cs" />
      <Compile Include="Assets\Scripts\StartMusic.cs" />
+     <Compile Include="Assets\Scripts\actionMenuIntro.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
