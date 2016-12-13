@@ -78,7 +78,7 @@ public class CriaObjetos : MonoBehaviour {
 		if (Time.timeSinceLevelLoad >= 248f &&  Time.timeSinceLevelLoad <= 253f) {
 			estacao = "primavera";
 		}
-		print (estacao);
+		//print (estacao);
 	}
 
 	void OnGUI(){
